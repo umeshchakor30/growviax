@@ -1,0 +1,1560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Growviax Global - Premium Agricultural Exports | Spices, Dehydrated Products & Dairy</title>
+    <meta name="description"
+        content="Growviax Global is a premium international corporate export company specializing in high-quality Spices, Honey, Vegetables, Dairy, and Fresh Produce. Connecting global markets with trust.">
+    <meta name="keywords"
+        content="Export, Spices, Dehydrated Onion, Garlic Powder, Honey, Vegetables, Fresh Produce, Global Trade, Growviax Global, India Export">
+    <meta name="author" content="Growviax Global">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="language" content="English">
+    <link rel="canonical" href="https://www.growviax.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.growviax.com/">
+    <meta property="og:title"
+        content="Growviax Global - Premium Agricultural Exports | Spices, Dehydrated Products & Dairy">
+    <meta property="og:description"
+        content="Growviax Global is a premium international corporate export company specializing in high-quality Spices, Honey, Vegetables, Dairy, and Fresh Produce. Connecting global markets with trust.">
+    <meta property="og:image" content="https://www.growviax.com/images/logo.jpeg">
+    <meta property="og:site_name" content="Growviax Global">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.growviax.com/">
+    <meta name="twitter:title"
+        content="Growviax Global - Premium Agricultural Exports | Spices, Dehydrated Products & Dairy">
+    <meta name="twitter:description"
+        content="Growviax Global is a premium international corporate export company specializing in high-quality Spices, Honey, Vegetables, Dairy, and Fresh Produce. Connecting global markets with trust.">
+    <meta name="twitter:image" content="https://www.growviax.com/images/logo.jpeg">
+    <!-- Favicon placeholder -->
+    <link rel="icon" href="images/logo.jpeg" type="image/jpeg">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome / Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Library CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Inline specific styles for index.html -->
+    <style>
+        /* Hero Section with Split Layout */
+        .hero-section {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            color: var(--white);
+            padding-top: 100px;
+            overflow: hidden;
+            background: linear-gradient(135deg, rgba(11, 74, 34, 1) 0%, rgba(27, 67, 50, 1) 100%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            padding-right: 2rem;
+        }
+
+        /* Swiper Card Slider */
+        .hero-swiper {
+            width: 100%;
+            padding-bottom: 50px;
+            margin-top: 20px;
+        }
+
+        .hero-swiper .swiper-slide {
+            width: 550px;
+            max-width: 100vw;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            background-color: transparent;
+        }
+
+        .hero-swiper .swiper-slide img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 18px;
+        }
+
+        .hero-swiper .swiper-slide-active {
+            transform: scale(1.05);
+            transition: transform 0.4s ease;
+            border: 2px solid var(--primary-green);
+        }
+
+        .swiper-pagination-bullet {
+            background: var(--white);
+            opacity: 0.5;
+        }
+
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+            background: var(--primary-green);
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        /* About Section */
+        .about-image {
+            position: relative;
+            border-radius: var(--border-radius-lg);
+            overflow: visible;
+        }
+
+        .experience-badge {
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            background: var(--primary-green);
+            color: var(--white);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-lg);
+            z-index: 2;
+        }
+
+        /* Stats Section */
+        .stats-section {
+            background: var(--light-gradient);
+            border-radius: var(--border-radius-lg);
+            padding: 3rem;
+            margin-top: -50px;
+            position: relative;
+            z-index: 3;
+            box-shadow: var(--shadow-md);
+        }
+
+        .stat-item h3 {
+            font-size: 3rem;
+            color: var(--primary-green);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Export Journey */
+        .timeline-container {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            padding: 3rem 0;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            width: 90%;
+            height: 2px;
+            background: var(--primary-green);
+            opacity: 0.2;
+            z-index: 0;
+            display: none;
+            /* Only show on desktop */
+        }
+
+        @media (min-width: 992px) {
+            .timeline-container::before {
+                display: block;
+            }
+
+            .timeline-step {
+                flex: 1;
+            }
+        }
+
+        .timeline-step {
+            position: relative;
+            z-index: 1;
+            background: var(--white);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+            width: 100%;
+        }
+
+        .step-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--light-gray);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            color: var(--primary-green);
+            font-size: 1.5rem;
+            border: 2px solid var(--primary-green);
+        }
+
+        /* Map Section */
+        .map-wrapper {
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            background: var(--white);
+            padding: 2rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: url('images/cta-bg.jpeg') center/cover;
+            position: relative;
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            margin: var(--section-padding) 0;
+            color: var(--white);
+        }
+
+        .cta-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(27, 67, 50, 0.85);
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 2;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+
+        /* Globe Hint Animations */
+        @keyframes pulseHint {
+            0% {
+                box-shadow: 0 0 0 0 rgba(139, 195, 74, 0.5);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(139, 195, 74, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(139, 195, 74, 0);
+            }
+        }
+
+        @keyframes swipeAnim {
+            0% {
+                transform: translateX(0px) rotate(0deg);
+            }
+
+            25% {
+                transform: translateX(-5px) rotate(-10deg);
+            }
+
+            75% {
+                transform: translateX(5px) rotate(10deg);
+            }
+
+            100% {
+                transform: translateX(0px) rotate(0deg);
+            }
+        }
+
+        /* Infinite Marquee */
+        .marquee-wrapper {
+            width: 100%;
+            overflow: hidden;
+            background: var(--primary-green);
+            color: var(--white);
+            padding: 12px 0;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .marquee-content {
+            display: flex;
+            white-space: nowrap;
+            animation: marquee 25s linear infinite;
+        }
+
+        .marquee-item {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            padding: 0 40px;
+            display: inline-block;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* Custom Magnetic Cursor */
+        @media (pointer: fine) {
+
+            body,
+            a,
+            button,
+            .swiper-slide {
+                cursor: none !important;
+            }
+        }
+
+        .custom-cursor {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 8px;
+            height: 8px;
+            background-color: var(--primary-green);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9999;
+            transform: translate(-50%, -50%);
+            transition: width 0.2s, height 0.2s, background-color 0.2s;
+        }
+
+        .custom-cursor-follower {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 32px;
+            height: 32px;
+            border: 2px solid var(--primary-green);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9998;
+            transform: translate(-50%, -50%);
+            transition: width 0.3s, height 0.3s, border-color 0.3s, background-color 0.3s;
+            transition-timing-function: ease-out;
+        }
+
+        .custom-cursor.hovering {
+            background-color: transparent;
+        }
+
+        .custom-cursor-follower.hovering {
+            width: 60px;
+            height: 60px;
+            background-color: rgba(85, 166, 48, 0.2);
+            border-color: transparent;
+        }
+
+        @media (max-width: 991px) {
+
+            .custom-cursor,
+            .custom-cursor-follower {
+                display: none !important;
+            }
+
+            body,
+            a,
+            button,
+            .swiper-slide {
+                cursor: auto !important;
+            }
+        }
+
+        /* Premium Trust Banner */
+        .trust-banner-wrapper {
+            position: relative;
+            z-index: 10;
+            margin-top: -50px;
+            padding: 0 15px;
+        }
+
+        .trust-banner-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            padding: 2rem;
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .trust-banner-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, #0b4a22, #55a630);
+        }
+
+        .trust-banner-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.12);
+        }
+
+        .trust-item {
+            transition: all 0.3s ease;
+            padding: 1rem;
+            border-radius: 12px;
+            background: transparent;
+            height: 100%;
+        }
+
+        .trust-item:hover {
+            background: rgba(85, 166, 48, 0.04);
+            transform: scale(1.03);
+        }
+
+        .trust-icon-box {
+            width: 55px;
+            height: 55px;
+            background: linear-gradient(135deg, rgba(85, 166, 48, 0.1) 0%, rgba(11, 74, 34, 0.1) 100%);
+            color: #55a630;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.75rem;
+            transition: all 0.4s ease;
+            flex-shrink: 0;
+        }
+
+        .trust-item:hover .trust-icon-box,
+        .trust-title-area:hover .trust-icon-box {
+            background: linear-gradient(135deg, #0b4a22 0%, #55a630 100%);
+            color: white;
+            box-shadow: 0 10px 20px rgba(85, 166, 48, 0.3);
+            transform: rotate(5deg) scale(1.1);
+        }
+
+        .trust-title-area {
+            position: relative;
+            transition: all 0.3s ease;
+            padding: 1rem;
+            border-radius: 12px;
+        }
+
+        .trust-title-area:hover {
+            background: rgba(85, 166, 48, 0.04);
+            transform: scale(1.03);
+        }
+
+        .trust-title-area::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 10%;
+            height: 80%;
+            width: 1px;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0) 100%);
+        }
+
+        @media (max-width: 991px) {
+            .trust-title-area::after {
+                display: none;
+            }
+
+            .trust-banner-wrapper {
+                margin-top: -30px;
+            }
+
+            .trust-banner-card {
+                padding: 1.5rem;
+            }
+        }
+
+        .premium-text-gradient {
+            background: linear-gradient(135deg, #0b4a22 0%, #55a630 50%, #2b9348 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0px 4px 15px rgba(85, 166, 48, 0.25);
+            display: inline-block;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800 !important;
+            letter-spacing: -1px;
+            line-height: 1.2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="navbar-custom navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-3" href="index.html">
+                <img src="images/logo.jpeg" alt="Growviax Global Logo"
+                    style="width: 55px; height: 55px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                <div class="d-flex flex-column justify-content-center lh-1 mt-1 pe-2" style="min-width: 180px;">
+                    <span class="fw-bold text-center"
+                        style="font-family: 'Poppins', sans-serif; font-size: 2.0rem; letter-spacing: -0.5px;">
+                        <span style="color: #0b4a22;">Gr</span><span
+                            style="position: relative; display: inline-block; color: #0b4a22;">o<i
+                                class="ph-fill ph-leaf"
+                                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-45deg); font-size: 0.45em; color: #55a630;"></i></span><span
+                            style="color: #0b4a22;">wvia</span><span style="color: #55a630; position: relative;">x<i
+                                class="ph-bold ph-arrow-up-right"
+                                style="position: absolute; top: 0px; right: -14px; font-size: 0.55em;"></i></span>
+                    </span>
+                    <div class="d-flex align-items-center justify-content-center w-100 mt-2" style="gap: 8px;">
+                        <i class="ph-fill ph-leaf"
+                            style="font-size: 0.55rem; color: #55a630; transform: rotate(90deg);"></i>
+                        <div style="height: 1px; flex-grow: 1; background-color: #0b4a22; opacity: 0.5;"></div>
+                        <span
+                            style="font-family: 'Inter', sans-serif; font-size: 0.75rem; letter-spacing: 4px; color: #0b4a22; font-weight: 700; padding-left: 4px; line-height: 1;">GLOBAL</span>
+                        <div style="height: 1px; flex-grow: 1; background-color: #0b4a22; opacity: 0.5;"></div>
+                        <i class="ph-fill ph-leaf"
+                            style="font-size: 0.55rem; color: #55a630; transform: scaleX(-1) rotate(90deg);"></i>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="ph ph-list" style="font-size: 1.8rem;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item d-none"><a class="nav-link" href="videos.html">Videos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="privacy-policy.html">Privacy Policy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="terms-of-service.html">Terms of Service</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center gap-3">
+                    <a href="contact.html" class="btn-custom btn-primary-custom d-none d-lg-flex">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container w-100">
+            <div class="row align-items-center">
+                <!-- Left Side: Text Content -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="hero-content pe-lg-4">
+                        <h1 class="hero-anim text-white" style="font-size: clamp(2.5rem, 4vw, 4rem);">Connecting Global
+                            Markets with Quality & Trust</h1>
+                        <p class="lead hero-anim mt-4 mb-5 text-light opacity-75">Premium Spices, Vegetables, Premium
+                            Dehydrated Powders. We bridge the gap between local farmers and international markets with
+                            uncompromising
+                            standards.</p>
+                        <div class="hero-anim d-flex flex-wrap gap-3">
+                            <a href="products.html" class="btn-custom btn-primary-custom">Explore Products</a>
+                            <a href="contact.html" class="btn-custom btn-white">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Swiper Card Slider -->
+                <div class="col-lg-6">
+                    <div class="swiper hero-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="images/cta-bg.jpeg" alt="Promo 1"></div>
+                            <div class="swiper-slide"><img src="images/cta-bg1.jpeg" alt="Promo 2"></div>
+                            <div class="swiper-slide"><img src="images/cta-bg2.jpeg" alt="Promo 3"></div>
+                            <div class="swiper-slide"><img src="images/cta-bg3.jpeg" alt="Promo 4"></div>
+                            <div class="swiper-slide"><img src="images/cta-bg4.jpeg" alt="Promo 5"></div>
+                            <div class="swiper-slide"><img src="images/cta-bg5.jpeg" alt="Promo 6"></div>
+                            <div class="swiper-slide"><img src="images/cta-bg6.jpeg" alt="Promo 7"></div>
+                            <div class="swiper-slide"><img src="images/cta-bg8.jpeg" alt="Promo 8"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Authorization Banner -->
+    <section class="trust-banner-wrapper">
+        <div class="container">
+            <div class="trust-banner-card">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-3 col-md-12 text-center text-lg-start trust-title-area pe-lg-4">
+                        <div class="d-inline-flex align-items-center justify-content-center mb-3 trust-icon-box">
+                            <i class="ph-fill ph-certificate"></i>
+                        </div>
+                        <h4 class="mb-0 premium-text-gradient">100% Authorized <br>& Certified</h4>
+                        <p class="text-muted small mb-0 mt-2 fw-semibold"
+                            style="letter-spacing: 0.5px; text-transform: uppercase; font-size: 0.7rem;">Govt.
+                            recognized export firm</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div
+                                    class="trust-item d-flex align-items-center justify-content-center justify-content-md-start gap-3">
+                                    <div class="trust-icon-box">
+                                        <i class="ph-fill ph-globe-hemisphere-west"></i>
+                                    </div>
+                                    <div class="text-start">
+                                        <span class="d-block text-muted text-uppercase fw-bold"
+                                            style="font-size: 0.7rem; letter-spacing: 1px;">Import Export Code</span>
+                                        <span class="d-block fw-bold text-dark fs-6 mt-1">ALXPL1671J</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div
+                                    class="trust-item d-flex align-items-center justify-content-center justify-content-md-start gap-3">
+                                    <div class="trust-icon-box">
+                                        <i class="ph-fill ph-shield-check"></i>
+                                    </div>
+                                    <div class="text-start">
+                                        <span class="d-block text-muted text-uppercase fw-bold"
+                                            style="font-size: 0.7rem; letter-spacing: 1px;">FSSAI License</span>
+                                        <span class="d-block fw-bold text-dark fs-6 mt-1">21526072001794</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div
+                                    class="trust-item d-flex align-items-center justify-content-center justify-content-md-start gap-3">
+                                    <div class="trust-icon-box">
+                                        <i class="ph-fill ph-receipt"></i>
+                                    </div>
+                                    <div class="text-start">
+                                        <span class="d-block text-muted text-uppercase fw-bold"
+                                            style="font-size: 0.7rem; letter-spacing: 1px;">GSTN</span>
+                                        <span class="d-block fw-bold text-dark fs-6 mt-1">27ALXPL1671J1ZG</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infinite Marquee Banner -->
+    <div class="marquee-wrapper">
+        <div class="marquee-content">
+            <!-- First Set -->
+            <span class="marquee-item">✦ 100% ORGANIC</span>
+            <span class="marquee-item">✦ PREMIUM EXPORT QUALITY</span>
+            <span class="marquee-item">✦ GLOBALLY CERTIFIED</span>
+            <span class="marquee-item">✦ SUSTAINABLY SOURCED</span>
+            <span class="marquee-item">✦ TRUSTED WORLDWIDE</span>
+            <!-- Second Set (Duplicate for seamless loop) -->
+            <span class="marquee-item">✦ 100% ORGANIC</span>
+            <span class="marquee-item">✦ PREMIUM EXPORT QUALITY</span>
+            <span class="marquee-item">✦ GLOBALLY CERTIFIED</span>
+            <span class="marquee-item">✦ SUSTAINABLY SOURCED</span>
+            <span class="marquee-item">✦ TRUSTED WORLDWIDE</span>
+        </div>
+    </div>
+
+    <!-- About & Stats Section -->
+    <section class="section-padding pb-0 bg-white">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6 mb-5 mb-lg-0 pr-lg-5" data-aos="fade-right">
+                    <div class="section-title text-start mb-4">
+                        <h2 class="text-primary">Setting the Gold Standard in Global Trade</h2>
+                    </div>
+                    <p>Growviax Global is dedicated to sourcing the finest agricultural products and delivering them to
+                        international markets. Our commitment to quality, sustainability, and ethical trade practices
+                        ensures that you receive only the best.</p>
+                    <p>We work directly with certified farmers, employ state-of-the-art processing facilities, and
+                        maintain rigorous quality control to meet global standards.</p>
+                    <ul class="list-unstyled mt-4">
+                        <li class="mb-3 d-flex align-items-center"><i class="ph-fill ph-check-circle text-primary me-3"
+                                style="font-size:1.5rem;"></i> 100% Organic & Natural Sourcing</li>
+                        <li class="mb-3 d-flex align-items-center"><i class="ph-fill ph-check-circle text-primary me-3"
+                                style="font-size:1.5rem;"></i> Stringent Quality Checks</li>
+                        <li class="mb-3 d-flex align-items-center"><i class="ph-fill ph-check-circle text-primary me-3"
+                                style="font-size:1.5rem;"></i> Global Logistics Network</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-image reveal-wrapper position-relative"
+                        style="border-radius: 20px; overflow: visible; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+                        <div class="reveal-overlay"></div>
+                        <img src="images/why_choose.jpeg" alt="Why Choose Growviax" class="img-fluid w-100"
+                            style="aspect-ratio: 4/4; object-fit: cover; transition: transform 0.5s ease; border-radius: 20px;">
+                        <div class="experience-badge tilt-card"
+                            style="position: absolute; bottom: -20px; right: -20px; z-index: 5;">
+                            <h3 class="mb-0">4+</h3>
+                            <p class="mb-0 text-white">Years of Excellence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats-section mt-5 pt-4 mb-2">
+                <div class="row text-center">
+                    <div class="col-md-3 col-6 mb-4 mb-md-0">
+                        <div class="stat-item">
+                            <h3><span class="counter-val" data-count="15">0</span>+</h3>
+                            <p class="mb-0 fw-semibold">Countries Served</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4 mb-md-0">
+                        <div class="stat-item">
+                            <h3><span class="counter-val" data-count="4">0</span>+</h3>
+                            <p class="mb-0 fw-semibold">Years Experience</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="stat-item">
+                            <h3><span class="counter-val" data-count="100">0</span>+</h3>
+                            <p class="mb-0 fw-semibold">Global Partners</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="stat-item">
+                            <h3><span class="counter-val" data-count="500">0</span>+</h3>
+                            <p class="mb-0 fw-semibold">Shipments/Year</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="section-padding pt-2 bg-white">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-end mb-5">
+                <div class="section-title text-start mb-0" data-aos="fade-right">
+                    <h2>Featured Products</h2>
+                    <p>Our highest demand export products.</p>
+                </div>
+                <a href="products.html" class="btn-custom btn-outline-custom d-none d-md-flex" data-aos="fade-left">View
+                    All <i class="ph ph-arrow-right"></i></a>
+            </div>
+
+            <div class="row g-4" id="featured-products-grid">
+                <!-- DYNAMIC_PRODUCTS_START -->
+                <!-- Product 1 -->
+                <div class="col-lg-4 col-md-6 product-item spices" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <span class="product-category-badge">Spices</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Spices/black_pepper.jpeg" alt="Black Pepper">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Black Pepper</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col-lg-4 col-md-6 product-item dehydrated powder" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <span class="product-category-badge">Dehydrated Powder</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Dehydrated Powder/dehydrated_fried_onions.jpeg"
+                                alt="Dehydrated Fried Onions">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Dehydrated Fried Onions</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col-lg-4 col-md-6 product-item dehydrated powder" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-card">
+                        <span class="product-category-badge">Dehydrated Powder</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Dehydrated Powder/dehydrated_garlic_powder.jpeg"
+                                alt="Dehydrated Garlic Powder">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Dehydrated Garlic Powder</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col-lg-4 col-md-6 product-item dehydrated powder" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <span class="product-category-badge">Dehydrated Powder</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Dehydrated Powder/dehydrated_ginger_powder.jpeg"
+                                alt="Dehydrated Ginger Powder">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Dehydrated Ginger Powder</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="col-lg-4 col-md-6 product-item dehydrated powder" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <span class="product-category-badge">Dehydrated Powder</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Dehydrated Powder/dehydrated_moringa_powder.jpeg"
+                                alt="Dehydrated Moringa Powder">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Dehydrated Moringa Powder</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="col-lg-4 col-md-6 product-item dehydrated powder" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-card">
+                        <span class="product-category-badge">Dehydrated Powder</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Dehydrated Powder/dehydrated_onion_flakes.jpeg"
+                                alt="Dehydrated Onion Flakes">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Dehydrated Onion Flakes</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="col-lg-4 col-md-6 product-item dehydrated powder" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <span class="product-category-badge">Dehydrated Powder</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Dehydrated Powder/dehydrated_red_onion_powder.jpeg"
+                                alt="Dehydrated Red Onion Powder">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Dehydrated Red Onion Powder</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="col-lg-4 col-md-6 product-item dehydrated powder" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <span class="product-category-badge">Dehydrated Powder</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Dehydrated Powder/dehydrated_spinach_powder.jpeg"
+                                alt="Dehydrated Spinach Powder">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Dehydrated Spinach Powder</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 9 -->
+                <div class="col-lg-4 col-md-6 product-item dehydrated powder" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-card">
+                        <span class="product-category-badge">Dehydrated Powder</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Dehydrated Powder/dehydrated_tomato_powder.jpeg"
+                                alt="Dehydrated Tomato Powder">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Dehydrated Tomato Powder</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 10 -->
+                <div class="col-lg-4 col-md-6 product-item dehydrated powder" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <span class="product-category-badge">Dehydrated Powder</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Dehydrated Powder/dehydrated_white_onion_powder.jpeg"
+                                alt="Dehydrated White Onion Powder">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Dehydrated White Onion Powder</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 11 -->
+                <div class="col-lg-4 col-md-6 product-item dehydrated powder" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <span class="product-category-badge">Dehydrated Powder</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Dehydrated Powder/garlic_powder.jpeg" alt="Garlic Powder">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Garlic Powder</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 12 -->
+                <div class="col-lg-4 col-md-6 product-item dehydrated powder" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-card">
+                        <span class="product-category-badge">Dehydrated Powder</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Dehydrated Powder/ginger_powder.jpeg" alt="Ginger Powder">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Ginger Powder</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 13 -->
+                <div class="col-lg-4 col-md-6 product-item dehydrated powder" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <span class="product-category-badge">Dehydrated Powder</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Dehydrated Powder/onion_powder.jpeg" alt="Onion Powder">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Onion Powder</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 14 -->
+                <div class="col-lg-4 col-md-6 product-item spices" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <span class="product-category-badge">Spices</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Spices/premium_black_mustard_seeds.jpeg"
+                                alt="Premium Black Mustard Seeds">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Premium Black Mustard Seeds</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 15 -->
+                <div class="col-lg-4 col-md-6 product-item spices" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-card">
+                        <span class="product-category-badge">Spices</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Spices/premium_cardamom.jpeg" alt="Premium Cardamom">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Premium Cardamom</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 16 -->
+                <div class="col-lg-4 col-md-6 product-item spices" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <span class="product-category-badge">Spices</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Spices/premium_clove.jpeg" alt="Premium Clove">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Premium Clove</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 17 -->
+                <div class="col-lg-4 col-md-6 product-item spices" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <span class="product-category-badge">Spices</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Spices/premium_coriander.jpeg" alt="Premium Coriander">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Premium Coriander</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 18 -->
+                <div class="col-lg-4 col-md-6 product-item spices" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-card">
+                        <span class="product-category-badge">Spices</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Spices/premium_cumin_seeds.jpeg" alt="Premium Cumin Seeds">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Premium Cumin Seeds</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 19 -->
+                <div class="col-lg-4 col-md-6 product-item spices" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <span class="product-category-badge">Spices</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Spices/premium_isabgol.jpeg" alt="Premium Isabgol">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Premium Isabgol</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 20 -->
+                <div class="col-lg-4 col-md-6 product-item spices" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <span class="product-category-badge">Spices</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Spices/premium_sauf_fennel_seeds.jpeg"
+                                alt="Premium Sauf Fennel Seeds">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Premium Sauf Fennel Seeds</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 21 -->
+                <div class="col-lg-4 col-md-6 product-item spices" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-card">
+                        <span class="product-category-badge">Spices</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Spices/premium_star_anise.jpeg" alt="Premium Star Anise">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Premium Star Anise</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 22 -->
+                <div class="col-lg-4 col-md-6 product-item spices" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <span class="product-category-badge">Spices</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Spices/premium_turmeric.jpeg" alt="Premium Turmeric">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Premium Turmeric</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 23 -->
+                <div class="col-lg-4 col-md-6 product-item spices" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <span class="product-category-badge">Spices</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Spices/premum_cinnamon.jpeg" alt="Premum Cinnamon">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Premum Cinnamon</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 24 -->
+                <div class="col-lg-4 col-md-6 product-item dairy products" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-card">
+                        <span class="product-category-badge">Dairy Products</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Dairy products/pure_cow_ghee.jpeg" alt="Pure Cow Ghee">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Pure Cow Ghee</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 25 -->
+                <div class="col-lg-4 col-md-6 product-item dehydrated powder" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <span class="product-category-badge">Dehydrated Powder</span>
+                        <div class="product-img-wrapper">
+                            <img src="images/products/Dehydrated Powder/turmeric_powder.jpeg" alt="Turmeric Powder">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title"><a href="#" class="quick-view-trigger" data-bs-toggle="offcanvas"
+                                    data-bs-target="#productQuickView">Turmeric Powder</a></h3>
+                            <p class="small mb-3">Premium quality export grade.</p>
+                            <a href="#"
+                                class="text-primary fw-semibold d-flex align-items-center gap-1 quick-view-trigger"
+                                data-bs-toggle="offcanvas" data-bs-target="#productQuickView">View Details <i
+                                    class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- DYNAMIC_PRODUCTS_END -->
+            </div>
+            <div class="text-center mt-4 d-md-none">
+                <a href="products.html" class="btn-custom btn-outline-custom">View All <i
+                        class="ph ph-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Export Journey Timeline -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Seamless Export Journey</h2>
+                <p>From farms to your port, we handle everything.</p>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-step" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="step-icon"><i class="ph-fill ph-plant"></i></div>
+                    <h5>01. Sourcing</h5>
+                    <p class="small text-muted mb-0">Direct from certified farms</p>
+                </div>
+                <div class="timeline-step" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="step-icon"><i class="ph-fill ph-check-square-offset"></i></div>
+                    <h5>02. Quality Check</h5>
+                    <p class="small text-muted mb-0">Rigorous lab testing & grading</p>
+                </div>
+                <div class="timeline-step" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="step-icon"><i class="ph-fill ph-package"></i></div>
+                    <h5>03. Packaging</h5>
+                    <p class="small text-muted mb-0">Export-standard secure packing</p>
+                </div>
+                <div class="timeline-step" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="step-icon"><i class="ph-fill ph-boat"></i></div>
+                    <h5>04. Shipping</h5>
+                    <p class="small text-muted mb-0">Timely global delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Footprint & CTA -->
+    <section class="section-padding bg-white">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2>Global Footprint</h2>
+                <p class="lead max-w-700 mx-auto opacity-75">We deliver superior agriculture products to continents
+                    across the globe. Our established networks ensure prompt and reliable shipping.</p>
+                <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
+                    <span class="badge bg-light text-primary border p-2 px-3 rounded-pill">UK</span>
+                    <span class="badge bg-light text-primary border p-2 px-3 rounded-pill">Malaysia</span>
+                    <span class="badge bg-light text-primary border p-2 px-3 rounded-pill">Vietnam</span>
+                    <span class="badge bg-light text-primary border p-2 px-3 rounded-pill">UAE</span>
+                    <span class="badge bg-light text-primary border p-2 px-3 rounded-pill">Qatar</span>
+                    <span class="badge bg-light text-primary border p-2 px-3 rounded-pill">Thailand</span>
+                    <span class="badge bg-light text-primary border p-2 px-3 rounded-pill">Indonesia</span>
+                    <span class="badge bg-light text-primary border p-2 px-3 rounded-pill">Germany</span>
+                    <span class="badge bg-light text-primary border p-2 px-3 rounded-pill">Finland</span>
+                    <span class="badge bg-light text-primary border p-2 px-3 rounded-pill">Norway</span>
+                    <span class="badge bg-light text-primary border p-2 px-3 rounded-pill">Singapore</span>
+                    <span class="badge bg-light text-primary border p-2 px-3 rounded-pill">Worldwide</span>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5" data-aos="zoom-in" data-aos-delay="200">
+                <div class="col-lg-12">
+                    <div class="map-wrapper text-center"
+                        style="padding: 0; background: transparent; box-shadow: none; position: relative;">
+                        <div id="globe-viz"
+                            style="width: 100%; height: 600px; border-radius: var(--border-radius-lg); overflow: hidden; background: radial-gradient(circle at center, #1b4332 0%, #081c15 100%); box-shadow: 0 10px 30px rgba(8, 28, 21, 0.4);">
+                        </div>
+
+                        <!-- Interactive Hint Overlay -->
+                        <div
+                            style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); background: rgba(0, 0, 0, 0.5); border: 1px solid rgba(139, 195, 74, 0.4); padding: 8px 20px; border-radius: 30px; display: flex; align-items: center; gap: 8px; pointer-events: none; backdrop-filter: blur(8px); animation: pulseHint 2.5s infinite;">
+                            <i class="ph ph-hand-swipe text-light-green"
+                                style="font-size: 1.2rem; animation: swipeAnim 2s infinite;"></i>
+                            <span
+                                style="color: rgba(255,255,255,0.9); font-size: 0.85rem; letter-spacing: 1px; font-weight: 500; text-transform: uppercase;">Click
+                                & Drag to Explore</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action Banner -->
+            <div class="cta-section" data-aos="zoom-in">
+                <div class="cta-overlay"></div>
+                <div class="cta-content">
+                    <h2 class="mb-4" style="color: white;">Global Trade Simplified.</h2>
+                    <p class="lead mb-5 max-w-700 mx-auto opacity-75" style="color: white;">Partner with us for
+                        reliable, high-quality
+                        agricultural exports. Let's grow your business together.</p>
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                        <a href="products.html" class="btn-custom btn-white">View Our Catalog</a>
+                        <a href="contact.html" class="btn-custom btn-outline-custom"
+                            style="color: white; border-color: white;">Request a Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-custom">
+        <!-- Top Divider Curve -->
+        <div class="footer-shape-divider"
+            style="position: absolute; top: 0; left: 0; width: 100%; overflow: hidden; line-height: 0;">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none"
+                style="position: relative; display: block; width: calc(100% + 1.3px); height: 40px;">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" style="fill: #ffffff;"></path>
+            </svg>
+        </div>
+
+        <div class="container pt-4">
+            <div class="row gx-lg-5">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <a href="index.html" class="d-inline-block text-decoration-none mb-4">
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="images/logo.jpeg" alt="Growviax Global Logo"
+                                style="width: 60px; height: 60px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                            <div class="d-flex flex-column justify-content-center lh-1 mt-1 pe-2">
+                                <span class="fw-bold text-center"
+                                    style="font-family: 'Poppins', sans-serif; font-size: 2.2rem; letter-spacing: -0.5px;">
+                                    <span style="color: #ffffff;">Gr</span><span
+                                        style="position: relative; display: inline-block; color: #ffffff;">o<i
+                                            class="ph-fill ph-leaf"
+                                            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-45deg); font-size: 0.45em; color: #55a630;"></i></span><span
+                                        style="color: #ffffff;">wvia</span><span
+                                        style="color: #55a630; position: relative;">x<i
+                                            class="ph-bold ph-arrow-up-right"
+                                            style="position: absolute; top: 0px; right: -14px; font-size: 0.55em;"></i></span>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <p class="opacity-75 mb-4 pe-lg-4 lh-lg text-white-50">Connecting global markets with unparalleled
+                        quality & trust. We are your premium partner in sourcing and agricultural exports worldwide.</p>
+                    <div class="d-flex gap-3">
+                        <!-- Social Icons -->
+                        <a href="#" class="social-icon-btn"><i class="ph-fill ph-facebook-logo"></i></a>
+                        <a href="#" class="social-icon-btn"><i class="ph-fill ph-instagram-logo"></i></a>
+                        <a href="#" class="social-icon-btn"><i class="ph-fill ph-linkedin-logo"></i></a>
+                        <a href="#" class="social-icon-btn"><i class="ph-fill ph-twitter-logo"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-3"><a href="index.html">Home</a></li>
+                        <li class="mb-3"><a href="products.html">Our Products</a></li>
+                        <li class="mb-3"><a href="contact.html">Contact Us</a></li>
+                        <li class="mb-3"><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-3"><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li class="mb-3"><a href="terms-of-service.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-12">
+                    <h4 class="footer-title">Get in Touch</h4>
+                    <ul class="list-unstyled contact-info opacity-75 text-white-50">
+                        <li class="mb-4 d-flex gap-3 align-items-start">
+                            <div class="contact-icon"><i class="ph-fill ph-map-pin"></i></div>
+                            <span style="line-height:1.6;">Ravikiran Rowhouse, Bunglow No. 1, Peth Road, PO Meri Colony,
+                                Nashik-422004, Maharashtra, India</span>
+                        </li>
+                        <li class="mb-4 d-flex gap-3 align-items-start">
+                            <div class="contact-icon"><i class="ph-fill ph-phone"></i></div>
+                            <div class="d-flex flex-column gap-1 mt-1">
+                                <a href="tel:+918347167497" class="text-decoration-none text-white-50 hover-white">+91
+                                    8347167497</a>
+                                <a href="tel:+919765173553" class="text-decoration-none text-white-50 hover-white">+91
+                                    9765173553</a>
+                            </div>
+                        </li>
+                        <li class="d-flex gap-3 align-items-center">
+                            <div class="contact-icon"><i class="ph-fill ph-envelope-simple"></i></div>
+                            <a href="mailto:growviaxglobal@gmail.com"
+                                class="text-decoration-none text-white-50 hover-white">growviaxglobal@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Registration Numbers Banner (Glassmorphism) -->
+            <div class="row mt-5 g-4">
+                <div class="col-md-4">
+                    <div class="footer-badge-glass d-flex align-items-center gap-3">
+                        <div class="footer-icon-glow">
+                            <i class="ph-fill ph-globe-hemisphere-west"></i>
+                        </div>
+                        <div>
+                            <small class="d-block text-white-50 text-uppercase fw-semibold"
+                                style="font-size:0.7rem; letter-spacing: 1px;">Import Export Code</small>
+                            <strong class="text-white fs-5">ALXPL1671J</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-badge-glass d-flex align-items-center gap-3">
+                        <div class="footer-icon-glow">
+                            <i class="ph-fill ph-shield-check"></i>
+                        </div>
+                        <div>
+                            <small class="d-block text-white-50 text-uppercase fw-semibold"
+                                style="font-size:0.7rem; letter-spacing: 1px;">FSSAI License</small>
+                            <strong class="text-white fs-5">21526072001794</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-badge-glass d-flex align-items-center gap-3">
+                        <div class="footer-icon-glow">
+                            <i class="ph-fill ph-receipt"></i>
+                        </div>
+                        <div>
+                            <small class="d-block text-white-50 text-uppercase fw-semibold"
+                                style="font-size:0.7rem; letter-spacing: 1px;">GSTN</small>
+                            <strong class="text-white fs-5">27ALXPL1671J1ZG</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="row mt-5 pt-4 border-top border-secondary align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0 text-white-50" style="font-size: 0.9rem;">&copy; 2026 <span
+                            class="text-white fw-semibold">Growviax Global</span>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill"
+                        style="background: rgba(85, 166, 48, 0.15); border: 1px solid rgba(85, 166, 48, 0.3);">
+                        <i class="ph-fill ph-certificate text-light-green fs-6"></i>
+                        <span class="text-white fw-semibold" style="font-size: 0.75rem; letter-spacing: 0.5px;">100%
+                            Authorized & Certified</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" aria-label="Back to Top"><i class="ph ph-caret-up"></i></button>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Library JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script type="module">
+        import { CountUp } from 'https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.8.0/countUp.min.js';
+        window.countUp = { CountUp };
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="https://unpkg.com/three"></script>
+    <script src="https://unpkg.com/globe.gl"></script>
+    <script src="js/globe-init.js"></script>
+
+    <!-- Product Quick View Offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="productQuickView" aria-labelledby="productQuickViewLabel">
+        <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title fw-bold" id="productQuickViewLabel">Product Details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="mb-4 text-center">
+                <img id="qv-img" src="" alt="Product Image" class="img-fluid w-100"
+                    style="max-height: 40vh; object-fit: contain; border-radius: 8px;">
+            </div>
+            <h3 id="qv-title" class="fw-bold mb-3 text-dark fs-4"></h3>
+            <p id="qv-desc" class="text-muted mb-4 fs-6">Premium export-quality product sourced sustainably. Contact us
+                for bulk pricing, specifications, and shipping details.</p>
+
+            <div class="pt-3 mt-4 border-top">
+                <a href="contact.html" class="btn-custom btn-primary-custom w-100 text-center py-3">Request a Quote</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Full Size Image Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background-color: rgba(0,0,0,0.85); border: none; border-radius: 0;">
+                <div class="modal-header border-0 position-absolute w-100 p-4" style="z-index: 1055; top: 0;">
+                    <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"
+                        style="opacity: 1; background-color: white; border-radius: 50%; padding: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center align-items-center p-4" style="height: 100vh;">
+                    <img id="fullSizeImg" src="" alt="Full Size" class="img-fluid"
+                        style="max-height: 90vh; max-width: 90vw; object-fit: contain; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

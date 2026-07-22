@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap');
+
+:root {
+  /* Colors */
+  --primary-green: #2E7D32;
+  --secondary-green: #4CAF50;
+  --light-green: #8BC34A;
+  --white: #FFFFFF;
+  --light-gray: #F8FAF8;
+  --dark-text: #1B4332;
+  --text-muted: #6b7280;
+  
+  /* Gradients */
+  --green-gradient: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+  --light-gradient: linear-gradient(135deg, var(--light-gray) 0%, #e8f5e9 100%);
+
+  /* Typography */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Spacing */
+  --section-padding: 80px 0;
+  --border-radius: 16px;
+  --border-radius-lg: 24px;
+  
+  /* Shadows */
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-premium: 0 30px 60px -12px rgba(46, 125, 50, 0.15), 0 18px 36px -18px rgba(0, 0, 0, 0.1);
+  
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.3);
+  --glass-blur: blur(12px);
+}
+
+/* Base Reset */
+html {
+  scroll-behavior: smooth; /* Native smooth scrolling */
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--dark-text);
+  background-color: var(--light-gray);
+  line-height: 1.6;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--dark-text);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+}
+
+h3 {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+}
+
+p {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: var(--primary-green);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--secondary-green);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Layout & Sections */
+.section-padding {
+  padding: var(--section-padding);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-light {
+  background-color: var(--light-gray);
+}
+
+.bg-gradient-green {
+  background: var(--green-gradient);
+  color: var(--white);
+}
+
+.bg-gradient-green h1,
+.bg-gradient-green h2,
+.bg-gradient-green h3,
+.bg-gradient-green p {
+  color: var(--white);
+}
+
+/* Utilities */
+.text-primary {
+  color: var(--primary-green) !important;
+}
+
+.text-gradient {
+  background: var(--green-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Container Adjustments */
+.container {
+  max-width: 1320px;
+}
+
+/* Contact Link Hover */
+.contact-link.hover-primary:hover {
+  color: var(--primary-green) !important;
+  text-decoration: underline !important;
+}

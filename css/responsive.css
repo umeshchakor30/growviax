@@ -1,0 +1,130 @@
+/* Responsive Adjustments */
+
+/* XL Devices (Desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .hero-section {
+    min-height: 90vh;
+  }
+}
+
+/* LG Devices (Desktops, 1200px to 1399px) */
+@media (max-width: 1399px) {
+  .hero-section {
+    padding-top: 150px;
+  }
+}
+
+/* MD Devices (Tablets, 992px to 1199px) */
+@media (max-width: 1199px) {
+  :root {
+    --section-padding: 70px 0;
+  }
+}
+
+/* SM Devices (Tablets/Phones, 768px to 991px) */
+@media (max-width: 991px) {
+  :root {
+    --section-padding: 60px 0;
+  }
+
+  .navbar-custom {
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    padding: 1rem 0;
+  }
+
+  .navbar-toggler {
+    border: none;
+    padding: 0;
+    color: var(--primary-green);
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-collapse {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    margin-top: 1rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  .navbar-custom .nav-link::after {
+    display: none;
+  }
+
+  .premium-card {
+    margin-bottom: 2rem;
+  }
+}
+
+/* XS Devices (Phones, less than 768px) */
+@media (max-width: 767px) {
+  :root {
+    --section-padding: 50px 0;
+  }
+
+  .btn-custom {
+    padding: 0.75rem 1.5rem;
+  }
+
+  .footer-custom {
+    padding: 4rem 0 1.5rem;
+    text-align: center;
+  }
+
+  .footer-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .social-links {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .footer-custom .col-lg-3,
+  .footer-custom .col-lg-4,
+  .footer-custom .col-lg-2 {
+    margin-bottom: 2rem;
+  }
+}
+
+/* XXS Devices (Small Phones, 425px and down) */
+@media (max-width: 425px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  
+  .section-title h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* XXXS Devices (Very Small Phones, 320px and down) */
+@media (max-width: 320px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  .btn-custom {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Height specific media query for landscape phones */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero-section {
+    min-height: auto;
+    padding: 150px 0 100px;
+  }
+  
+  .navbar-collapse {
+    max-height: 250px;
+    overflow-y: auto;
+  }
+}
