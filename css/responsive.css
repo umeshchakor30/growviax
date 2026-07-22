@@ -59,12 +59,20 @@
   .premium-card {
     margin-bottom: 2rem;
   }
+
+  .hero-section {
+    padding-top: 180px;
+  }
 }
 
 /* XS Devices (Phones, less than 768px) */
 @media (max-width: 767px) {
   :root {
     --section-padding: 50px 0;
+  }
+
+  .hero-section {
+    padding-top: 200px;
   }
 
   .btn-custom {

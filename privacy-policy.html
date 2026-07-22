@@ -67,7 +67,7 @@
             transform: translateY(-5px);
         }
 
-        .contact-icon {
+        .page-contact-icon {
             width: 60px;
             height: 60px;
             background: var(--light-gradient);
@@ -187,85 +187,139 @@
 
     <!-- Footer placeholder -->
     <footer class="footer-custom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <h3 class="text-white mb-4 d-flex align-items-center gap-2"><img src="images/logo.jpeg"
-                            alt="Growviax Global Logo" class="footer-logo"> Growviax</h3>
-                    <p class="opacity-75 mb-4 pe-lg-4">Connecting global markets with quality & trust. Your premium
-                        partner in agricultural exports.</p>
-                    <div class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill mb-4" style="background: rgba(85, 166, 48, 0.15); border: 1px solid rgba(85, 166, 48, 0.3);">
-                        <i class="ph-fill ph-certificate text-light-green fs-5"></i>
-                        <span class="text-white fw-semibold" style="font-size: 0.85rem; letter-spacing: 0.5px;">100% Authorized & Certified</span>
-                    </div>
+        <!-- Top Divider Curve -->
+        <div class="footer-shape-divider"
+            style="position: absolute; top: 0; left: 0; width: 100%; overflow: hidden; line-height: 0;">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none"
+                style="position: relative; display: block; width: calc(100% + 1.3px); height: 40px;">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" style="fill: #ffffff;"></path>
+            </svg>
+        </div>
+
+        <div class="container pt-4">
+            <div class="row gx-lg-5">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <a href="index.html" class="d-inline-block text-decoration-none mb-4">
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="images/logo.jpeg" alt="Growviax Global Logo"
+                                style="width: 60px; height: 60px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                            <div class="d-flex flex-column justify-content-center lh-1 mt-1 pe-2">
+                                <span class="fw-bold text-center"
+                                    style="font-family: 'Poppins', sans-serif; font-size: 2.2rem; letter-spacing: -0.5px;">
+                                    <span style="color: #ffffff;">Gr</span><span
+                                        style="position: relative; display: inline-block; color: #ffffff;">o<i
+                                            class="ph-fill ph-leaf"
+                                            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-45deg); font-size: 0.45em; color: #55a630;"></i></span><span
+                                        style="color: #ffffff;">wvia</span><span
+                                        style="color: #55a630; position: relative;">x<i
+                                            class="ph-bold ph-arrow-up-right"
+                                            style="position: absolute; top: 0px; right: -14px; font-size: 0.55em;"></i></span>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <p class="opacity-75 mb-4 pe-lg-4 lh-lg text-white-50">Connecting global markets with unparalleled
+                        quality & trust. We are your premium partner in sourcing and agricultural exports worldwide.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ps-lg-5">
-                    <h4 class="footer-title">Quick Links</h4>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="index.html">Home</a></li>
-                        <li class="mb-2"><a href="products.html">Products</a></li>
-                        <li class="mb-2"><a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li class="mb-2"><a href="terms-of-service.html">Terms of Service</a></li>
-                        <li class="mb-2"><a href="contact.html">Contact Us</a></li>
+
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-3"><a href="index.html">Home</a></li>
+                        <li class="mb-3"><a href="products.html">Our Products</a></li>
+                        <li class="mb-3"><a href="contact.html">Contact Us</a></li>
+                        <li class="mb-3"><a href="#">About Us</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="footer-title">Contact Us</h4>
-                    <ul class="list-unstyled opacity-75">
-                        <li class="mb-3 d-flex gap-2"><i class="ph-fill ph-map-pin text-light-green mt-1"></i> <span
-                                style="line-height:1.4;">Ravikiran Rowhouse, Bunglow No. 1, Peth Road, PO Meri Colony,
-                                Nashik-422004, Maharashtra, India</span></li>
-                        <li class="mb-3 d-flex gap-2 align-items-start">
-                            <i class="ph-fill ph-phone text-light-green mt-1"></i>
-                            <div class="d-flex flex-column">
-                                <a href="tel:+918347167497"
-                                    class="text-white text-decoration-none contact-link hover-primary">+91
+
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-3"><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li class="mb-3"><a href="terms-of-service.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-12">
+                    <h4 class="footer-title">Get in Touch</h4>
+                    <ul class="list-unstyled contact-info opacity-75 text-white-50">
+                        <li class="mb-4 d-flex gap-3 align-items-start">
+                            <div class="contact-icon"><i class="ph-fill ph-map-pin"></i></div>
+                            <span style="line-height:1.6;">Ravikiran Rowhouse, Bunglow No. 1, Peth Road, PO Meri Colony,
+                                Nashik-422004, Maharashtra, India</span>
+                        </li>
+                        <li class="mb-4 d-flex gap-3 align-items-start">
+                            <div class="contact-icon"><i class="ph-fill ph-phone"></i></div>
+                            <div class="d-flex flex-column gap-1 mt-1">
+                                <a href="tel:+918347167497" class="text-decoration-none text-white-50 hover-white">+91
                                     8347167497</a>
-                                <a href="tel:+919765173553"
-                                    class="text-white text-decoration-none contact-link hover-primary">+91
+                                <a href="tel:+919765173553" class="text-decoration-none text-white-50 hover-white">+91
                                     9765173553</a>
                             </div>
                         </li>
-                        <li class="mb-3 d-flex gap-2"><i class="ph-fill ph-envelope-simple text-light-green mt-1"></i>
+                        <li class="d-flex gap-3 align-items-center">
+                            <div class="contact-icon"><i class="ph-fill ph-envelope-simple"></i></div>
                             <a href="mailto:growviaxglobal@gmail.com"
-                                class="text-white text-decoration-none contact-link hover-primary">growviaxglobal@gmail.com</a>
+                                class="text-decoration-none text-white-50 hover-white">growviaxglobal@gmail.com</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            
-            <!-- Registration Numbers Banner -->
-            <div class="row mt-5 pt-4 border-top border-secondary align-items-center">
-                <div class="col-md-4 mb-4 mb-md-0 d-flex gap-3 align-items-center">
-                    <i class="ph-fill ph-globe-hemisphere-west text-light-green fs-1"></i>
-                    <div>
-                        <small class="d-block text-white-50 text-uppercase fw-semibold" style="font-size:0.7rem; letter-spacing: 1px;">Import Export Code</small>
-                        <strong class="text-white fs-5">ALXPL1671J</strong>
+
+            <!-- Registration Numbers Banner (Glassmorphism) -->
+            <div class="row mt-5 g-4">
+                <div class="col-md-4">
+                    <div class="footer-badge-glass d-flex align-items-center gap-3">
+                        <div class="footer-icon-glow">
+                            <i class="ph-fill ph-globe-hemisphere-west"></i>
+                        </div>
+                        <div>
+                            <small class="d-block text-white-50 text-uppercase fw-semibold"
+                                style="font-size:0.7rem; letter-spacing: 1px;">Import Export Code</small>
+                            <strong class="text-white fs-5">ALXPL1671J</strong>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4 mb-md-0 d-flex gap-3 align-items-center justify-content-md-center border-md-start border-md-end border-secondary">
-                    <i class="ph-fill ph-shield-check text-light-green fs-1"></i>
-                    <div>
-                        <small class="d-block text-white-50 text-uppercase fw-semibold" style="font-size:0.7rem; letter-spacing: 1px;">FSSAI License</small>
-                        <strong class="text-white fs-5">21526072001794</strong>
+                <div class="col-md-4">
+                    <div class="footer-badge-glass d-flex align-items-center gap-3">
+                        <div class="footer-icon-glow">
+                            <i class="ph-fill ph-shield-check"></i>
+                        </div>
+                        <div>
+                            <small class="d-block text-white-50 text-uppercase fw-semibold"
+                                style="font-size:0.7rem; letter-spacing: 1px;">FSSAI License</small>
+                            <strong class="text-white fs-5">21526072001794</strong>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex gap-3 align-items-center justify-content-md-end">
-                    <i class="ph-fill ph-receipt text-light-green fs-1"></i>
-                    <div>
-                        <small class="d-block text-white-50 text-uppercase fw-semibold" style="font-size:0.7rem; letter-spacing: 1px;">GSTN</small>
-                        <strong class="text-white fs-5">27ALXPL1671J1ZG</strong>
+                <div class="col-md-4">
+                    <div class="footer-badge-glass d-flex align-items-center gap-3">
+                        <div class="footer-icon-glow">
+                            <i class="ph-fill ph-receipt"></i>
+                        </div>
+                        <div>
+                            <small class="d-block text-white-50 text-uppercase fw-semibold"
+                                style="font-size:0.7rem; letter-spacing: 1px;">GSTN</small>
+                            <strong class="text-white fs-5">27ALXPL1671J1ZG</strong>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row mt-4 pt-4 border-top border-secondary">
-                <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-0 opacity-50">&copy; 2026 Growviax Global. All Rights Reserved.</p>
+            <!-- Footer Bottom -->
+            <div class="row mt-5 pt-4 border-top border-secondary align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0 text-white-50" style="font-size: 0.9rem;">&copy; 2026 <span
+                            class="text-white fw-semibold">Growviax Global</span>. All Rights Reserved.</p>
                 </div>
-                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
-                    <a href="privacy-policy.html" class="opacity-50 me-3">Privacy Policy</a>
-                    <a href="terms-of-service.html" class="opacity-50">Terms of Service</a>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill"
+                        style="background: rgba(85, 166, 48, 0.15); border: 1px solid rgba(85, 166, 48, 0.3);">
+                        <i class="ph-fill ph-certificate text-light-green fs-6"></i>
+                        <span class="text-white fw-semibold" style="font-size: 0.75rem; letter-spacing: 0.5px;">100%
+                            Authorized & Certified</span>
+                    </div>
                 </div>
             </div>
         </div>
