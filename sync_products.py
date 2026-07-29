@@ -32,10 +32,11 @@ for root, dirs, files in os.walk(PRODUCTS_DIR):
                 category = rel_path.lower().replace('\\', '/').split('/')[0]
             
             product_name = format_product_name(filename)
+            timestamp = int(os.path.getmtime(filepath))
             
             products.append({
                 "name": product_name,
-                "image": filepath,
+                "image": f"{filepath}?v={timestamp}",
                 "category": category
             })
 
@@ -55,7 +56,6 @@ def generate_html(prod_list, limit=None):
         html += f"""                <!-- Product {i+1} -->
                 <div class="col-lg-4 col-md-6 product-item {p['category']}" data-aos="fade-up" data-aos-delay="{delay}">
                     <div class="product-card">
-                        <span class="product-category-badge">{display_category}</span>
                         <div class="product-img-wrapper">
                             <img src="{p['image']}" alt="{p['name']}">
                         </div>

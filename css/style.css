@@ -140,3 +140,9 @@ img {
   color: var(--primary-green) !important;
   text-decoration: underline !important;
 }
+
+.page-header {
+  padding: 180px 0 100px;
+  background: var(--light-gradient);
+  text-align: center;
+}

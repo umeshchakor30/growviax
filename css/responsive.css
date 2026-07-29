@@ -99,6 +99,22 @@
   .footer-custom .col-lg-2 {
     margin-bottom: 2rem;
   }
+
+  .page-header {
+    padding: 140px 0 60px !important;
+  }
+
+  .hero-swiper .swiper-slide {
+    width: 90vw !important;
+  }
+
+  .trust-banner-wrapper {
+    margin-top: -30px;
+  }
+
+  .trust-banner-card {
+    padding: 1.5rem;
+  }
 }
 
 /* XXS Devices (Small Phones, 425px and down) */

@@ -23,7 +23,13 @@ document.addEventListener("DOMContentLoaded", () => {
         { lat: 51.1657, lng: 10.4515, name: "Germany", code: "de" },
         { lat: 61.9241, lng: 25.7482, name: "Finland", code: "fi" },
         { lat: 60.4720, lng: 8.4689, name: "Norway", code: "no" },
-        { lat: 1.3521, lng: 103.8198, name: "Singapore", code: "sg" }
+        { lat: 1.3521, lng: 103.8198, name: "Singapore", code: "sg" },
+        { lat: 61.5240, lng: 105.3188, name: "Russia", code: "ru" },
+        { lat: -30.5595, lng: 22.9375, name: "South Africa", code: "za" },
+        { lat: 40.3399, lng: 127.5101, name: "North Korea", code: "kp" },
+        { lat: 35.8617, lng: 104.1954, name: "China", code: "cn" },
+        { lat: 7.8731, lng: 80.7718, name: "Sri Lanka", code: "lk" },
+        { lat: 23.6850, lng: 90.3563, name: "Bangladesh", code: "bd" }
     ];
 
     // Create Arc Data

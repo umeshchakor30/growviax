@@ -35,11 +35,11 @@ products = [
 ]
 
 html = '<div class="row g-4" id="product-grid">\n'
-for name, filter_class, badge in products:
+for i, (name, cat_class, badge) in enumerate(products):
     img_num = random.randint(1, 10)
-    html += f'''                <div class="col-lg-4 col-md-6 product-item {filter_class}">
+    delay = (i % 3) * 100
+    html += f'''                <div class="col-lg-4 col-md-6 product-item {cat_class}" data-aos="fade-up" data-aos-delay="{delay}">
                     <div class="product-card">
-                        <span class="product-category-badge">{badge}</span>
                         <div class="product-img-wrapper">
                             <img src="images/sample{img_num}.jpeg" alt="{name}">
                         </div>
