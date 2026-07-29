@@ -31,7 +31,10 @@
     background: var(--glass-bg);
     backdrop-filter: var(--glass-blur);
     -webkit-backdrop-filter: var(--glass-blur);
-    padding: 1rem 0;
+    padding: 1rem 1rem;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
   }
 
   .navbar-toggler {
@@ -82,6 +85,19 @@
   .footer-custom {
     padding: 4rem 0 1.5rem;
     text-align: center;
+  }
+
+  .navbar-brand span {
+    font-size: 1.5rem !important;
+  }
+
+  .navbar-brand img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  
+  .navbar-brand .d-flex.flex-column {
+    min-width: auto !important;
   }
 
   .footer-title::after {
