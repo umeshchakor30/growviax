@@ -40,8 +40,14 @@ for root, dirs, files in os.walk(PRODUCTS_DIR):
                 "category": category
             })
 
-# Sort alphabetically by name
-products.sort(key=lambda x: x["name"])
+# Sort by custom category sequence, then alphabetically by name
+category_order = {
+    'dehydrated powder': 1,
+    'spices': 2,
+    'fresh goods': 3,
+    'dairy products': 4
+}
+products.sort(key=lambda x: (category_order.get(x["category"], 99), x["name"]))
 
 # Function to generate HTML cards
 def generate_html(prod_list, limit=None):
