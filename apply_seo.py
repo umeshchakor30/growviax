@@ -5,38 +5,38 @@ seo_data = {
     'index.html': {
         'title': 'Growviax Global - Premium Agricultural Exports | Spices, Dehydrated Products & Dairy',
         'desc': 'Growviax Global is a premium international corporate export company specializing in high-quality Spices, Honey, Vegetables, Dairy, and Fresh Produce. Connecting global markets with trust.',
-        'url': 'https://www.growviax.com/'
+        'url': 'https://growviaxglobal.com/'
     },
     'products.html': {
         'title': 'Our Products | Growviax Global - Export Quality Spices & Produce',
         'desc': 'Explore our premium range of export-quality spices, dehydrated powders, fresh goods, and dairy products. Sourced sustainably for global markets.',
-        'url': 'https://www.growviax.com/products.html'
+        'url': 'https://growviaxglobal.com/products.html'
     },
     'videos.html': {
         'title': 'Videos & Media | Growviax Global Export Operations',
         'desc': 'Watch videos showcasing Growviax Global\'s export operations, quality control processes, and premium agricultural product sourcing.',
-        'url': 'https://www.growviax.com/videos.html'
+        'url': 'https://growviaxglobal.com/videos.html'
     },
     'contact.html': {
         'title': 'Contact Us | Growviax Global - Inquiries & Bulk Orders',
         'desc': 'Get in touch with Growviax Global for bulk export inquiries, product specifications, and global shipping details. We connect you with premium agriculture.',
-        'url': 'https://www.growviax.com/contact.html'
+        'url': 'https://growviaxglobal.com/contact.html'
     },
     'privacy-policy.html': {
         'title': 'Privacy Policy | Growviax Global',
         'desc': 'Read the Privacy Policy of Growviax Global. We are committed to protecting your personal information and ensuring data security.',
-        'url': 'https://www.growviax.com/privacy-policy.html'
+        'url': 'https://growviaxglobal.com/privacy-policy.html'
     },
     'terms-of-service.html': {
         'title': 'Terms of Service | Growviax Global',
         'desc': 'Terms of Service and conditions for using the Growviax Global website and engaging in our agricultural export business.',
-        'url': 'https://www.growviax.com/terms-of-service.html'
+        'url': 'https://growviaxglobal.com/terms-of-service.html'
     }
 }
 
 base_keywords = "Export, Spices, Dehydrated Onion, Garlic Powder, Honey, Vegetables, Fresh Produce, Global Trade, Growviax Global, India Export"
 site_name = "Growviax Global"
-image_url = "https://www.growviax.com/images/logo.jpeg"
+image_url = "https://growviaxglobal.com/images/logo.jpeg"
 
 def generate_seo_block(page_data):
     return f"""
