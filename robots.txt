@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.growviax.com/sitemap.xml
+Sitemap: https://growviaxglobal.com/sitemap.xml
